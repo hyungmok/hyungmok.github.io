@@ -10782,6 +10782,11 @@ article.article .content blockquote.pullquote {
 article.article .content blockquote footer strong + cite {
   margin-left: 0.5em;
 }
+article.article .title {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: -1.4px;
+}
 .rtl {
   direction: rtl;
 }

@@ -412,7 +412,7 @@ button,
 input,
 select,
 textarea {
-  font-family: Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif;
+  font-family: 'NanumSquareRound', "Helvetica Neue", sans-serif;
 }
 code,
 pre {
@@ -1057,13 +1057,13 @@ a.has-text-grey-lightest:focus {
   font-weight: 700 !important;
 }
 .is-family-primary {
-  font-family: Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif !important;
+  font-family: 'NanumSquareRound', "Helvetica Neue", sans-serif !important;
 }
 .is-family-secondary {
-  font-family: Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif !important;
+  font-family: 'NanumSquareRound', "Helvetica Neue", sans-serif !important;
 }
 .is-family-sans-serif {
-  font-family: Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif !important;
+  font-family: 'NanumSquareRound', "Helvetica Neue", sans-serif !important;
 }
 .is-family-monospace {
   font-family: monospace !important;
@@ -10781,6 +10781,11 @@ article.article .content blockquote.pullquote {
 article.article .content blockquote footer strong + cite {
   margin-left: 0.5em;
 }
+article.article .title {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: -1.4px;
+}
 .rtl {
   direction: rtl;
 }
@@ -11345,3 +11350,4 @@ figure.highlight .section {
     padding: 1.5rem 1rem;
   }
 }
+@import url("https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.css");
